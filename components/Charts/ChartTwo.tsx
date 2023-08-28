@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 const ApexCharts = dynamic(() => import("react-apexcharts"), { ssr: false });
 
 const options: ApexOptions = {
-  colors: ["#FE76A8", "#BA90C6"],
+  colors: ["#FF80AF", "#a799ff"],
   chart: {
     // events: {
     //   beforeMount: (chart) => {
