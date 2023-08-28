@@ -11,7 +11,7 @@ const options: ApexOptions = {
     position: "top",
     horizontalAlign: "left",
   },
-  colors: ["#3C50E0", "#80CAEE"],
+  colors: ["#FE76A8", "#80CAEE"],
   chart: {
     // events: {
     //   beforeMount: (chart) => {
