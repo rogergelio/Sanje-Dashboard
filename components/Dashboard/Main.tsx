@@ -3,16 +3,11 @@ import React from "react";
 import ChartOne from "../Charts/ChartOne";
 import ChartThree from "../Charts/ChartThree";
 import ChartTwo from "../Charts/ChartTwo";
-import ChatCard from "../Chat/ChatCard";
 import TableOne from "../Tables/TableOne";
 import CardDataStats from "../CardDataStats";
 // import Map from "../Maps/TestMap";
 
 // without this the component renders on server and throws an error
-import dynamic from "next/dynamic";
-const MapOne = dynamic(() => import("../Maps/MapOne"), {
-  ssr: false,
-});
 
 const Main: React.FC = () => {
   return (
@@ -109,11 +104,9 @@ const Main: React.FC = () => {
         <ChartOne />
         <ChartTwo />
         <ChartThree />
-        <MapOne />
-        <div className="col-span-12 xl:col-span-8">
+        <div className="col-span-12 xl:col-span-7">
           <TableOne />
         </div>
-        <ChatCard />
       </div>
     </>
   );
