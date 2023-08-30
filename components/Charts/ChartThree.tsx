@@ -72,13 +72,13 @@ const options: ApexOptions = {
       breakpoint: 640,
       options: {
         chart: {
-          width: 200,
+          width: 500,
         },
       },
     },
   ],
   xaxis: {
-    categories: ['Goals Scored', 'XG', 'Goals Conceded', 'XA', 'PPDA', 'Passes per game'],
+    categories: ['Goals\nScored', 'XG', 'Goals\nConceded', 'XA', 'PPDA', 'Passes per game'],
   },
   yaxis: {
     show: false,
