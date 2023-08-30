@@ -78,7 +78,7 @@ const options: ApexOptions = {
     },
   ],
   xaxis: {
-    categories: ['Goals\nScored', 'XG', 'Goals\nConceded', 'XA', 'PPDA', 'Passes per game'],
+    categories: [['Goals','Scored',], 'XG', ['Goals','Conceded'], 'XA', 'PPDA', ['Passes', 'per game']],
   },
   yaxis: {
     show: false,
