@@ -1,7 +1,13 @@
+import "./loader.css";
 const Loader = () => {
   return (
-    <div className="flex h-screen items-center justify-center bg-white">
-      <div className="h-16 w-16 animate-spin rounded-full border-8 border-solid border-primary border-t-transparent"></div>
+    <div className="loader-container">
+      <div className="spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
   );
 };
